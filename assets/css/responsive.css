@@ -1,0 +1,48 @@
+@media(max-width: 500px){
+
+    /* ------------------------- Content ------------------------- */
+
+    .pattern-bg {
+        width: 375px;
+        height: 388px;
+        background-image: url('../images/pattern-background-mobile.svg');
+    }
+
+    .content-container {
+        width: 375px;
+    }
+
+    /* -------------- Hero image -------------- */
+
+    .img-container {
+        height: 30%;
+    }
+
+    /* -------------- Order Summary -------------- */
+    
+    .order-summary-container {
+        height: 70%;
+        padding: 40px 26px;
+
+    }
+
+    .order-summary-text {
+        font-size: 16px;
+    }
+
+    .annual-plan-cancel a {
+        font-size: 16px;
+    }
+
+    /* -------------- Button -------------- */
+
+    .btn {
+        font-size: 17px;
+    }
+
+    .cancel-option {
+        font-size: 18px;
+    }
+
+
+}

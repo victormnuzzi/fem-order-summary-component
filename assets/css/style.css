@@ -33,19 +33,25 @@
     height: 640px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
-    box-shadow: 2px 2px 40px hsl(245, 75%, 52%, 30%);
+    box-shadow: 0px 16px 40px hsl(245, 75%, 52%, 20%);
 }
 
 /* -------------- Hero image -------------- */
 
 .img-container {
-    height: 220px;
+    height: 35%;
+    background-image: url('../images/illustration-hero.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 /* -------------- Order Summary -------------- */
 
 .order-summary-container {
-    height: calc(100% - 220px);
+    height: 65%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -63,7 +69,7 @@
     font-weight: 900;
 }
 
-.order-summary-container p {
+.order-summary-text {
     color: hsl(224, 23%, 55%);
     font-size: 16px;
 }
@@ -75,7 +81,7 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: hsl(225, 100%, 98%);
-    padding: 24px;
+    padding: 18px;
     border-radius: 16px;
 }
 
@@ -91,6 +97,7 @@
     flex-direction: column;
     align-items: center;
     gap: 5px;
+    color: hsl(224, 23%, 55%);
 }
 
 .annual-plan-tittle  {
@@ -131,7 +138,7 @@
     color: hsl(0, 0%, 100%);
     font-size: 14px;
     font-weight: 700;
-    box-shadow: -2px 14px 8px hsla(245, 93%, 48%, 10%);
+    box-shadow: -2px 14px 8px hsla(245, 93%, 48%, 12%);
     transition: .5s;
 }
 
