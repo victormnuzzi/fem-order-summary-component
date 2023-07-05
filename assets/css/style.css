@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 /* ------------------------- Content ------------------------- */
@@ -24,52 +25,128 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid purple;
+    box-shadow: 2px 2px 20px hsla(0, 0%, 0%, 20%);
 }
 
 .content-container {
-    width: 600px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
+    width: 450px;
+    height: 640px;
     background-color: hsl(0, 0%, 100%);
-    border: 2px solid red;
+    border-radius: 20px;
+    box-shadow: 2px 2px 40px hsl(245, 75%, 52%, 30%);
 }
+
+/* -------------- Hero image -------------- */
 
 .img-container {
-    
-    border: 2px solid blue;
+    height: 220px;
 }
 
-/* -------------- Order Summary Text -------------- */
+/* -------------- Order Summary -------------- */
 
-.text-container {
-    border: 2px solid blueviolet;
-    
+.order-summary-container {
+    height: calc(100% - 220px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 50px;
+    text-align: center;
+}
+
+.content-container img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.order-summary-container h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.order-summary-container p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
 }
 
 /* -------------- Annual Plan -------------- */
 
 .annual-plan-container {
-    border: 2px solid yellow;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.annual-plan-details {
+    width: 53%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .annual-plan-text {
-    border: 2px solid pink;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.annual-plan-tittle  {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.annual-plan-cancel {
+    width: 47%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.annual-plan-cancel a {
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+    font-size: 14px;
+}
+
+.annual-plan-cancel a:hover {
+    color: hsla(245, 75%, 52%, 60%);
+    text-decoration: none;
 }
 
 
 /* -------------- Button -------------- */
 
+.btn, .cancel-option {
+    text-decoration: none;
+    
+}
+
 .btn {
-    border: 2px solid red;
+    background-color: hsl(245, 75%, 52%);
+    padding: 14px;
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: -2px 14px 8px hsla(245, 93%, 48%, 10%);
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: hsla(245, 75%, 52%, 60%);
 }
 
 .cancel-option {
-    
-    border: 2px solid red;
+    color: gray;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.cancel-option:hover {
+    color: hsl(223, 47%, 23%);
 }
 
 /* ------------------------- Footer ------------------------- */
@@ -81,7 +158,8 @@ footer {
 }
 
 .attribution {
-    font-size: 11px; text-align: center;
+    font-size: 11px; 
+    text-align: center;
 }
 
 .attribution a {
