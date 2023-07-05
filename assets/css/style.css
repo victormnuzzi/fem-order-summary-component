@@ -6,12 +6,58 @@
 
 /* ------------------------- Content ------------------------- */
 
+.container {
+    width: 100%;
+    height: 100vh;
+    border: 2px solid ;
+}
+
+.pattern-bg {
+    
+}
+
+.content-container {
+
+}
+
+.img-container {
+    
+}
+
+/* -------------- Order Summary Text -------------- */
+
+.text-container {
+
+}
+
+/* -------------- Annual Plan -------------- */
+
+.annual-plan-container {
+
+}
+
+.annual-plan-text {
+
+}
 
 
+/* -------------- Button -------------- */
 
+.btn {
+
+}
+
+.cancel-option {
+
+}
 
 /* ------------------------- Footer ------------------------- */
-footer
+footer {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .attribution {
     font-size: 11px; text-align: center;
