@@ -1,43 +1,33 @@
-# Frontend Mentor - Order summary card solution
+# 🛒 Order Summary Component
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Repositório dedicado ao exercício ["Order Summary Component"](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) do site [Frontend Mentor](https://www.frontendmentor.io).
 
-## Table of contents
+## 🎯Desafio
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+"A perfect project for newbies who are starting to build confidence with layouts!"
 
-## Overview
+*(Um projeto perfeito para os principiantes que estão a começar a ganhar confiança nos layouts!)*
 
-### The challenge
+### ⚒️ Tecnologias utilizadas 
+- HTML5
+- CSS3
 
-Users should be able to:
+### 🤩 Resultado
 
-- See hover states for interactive elements
+- [Confira aqui o resultado!](https://fem-vn-order-summary-component.netlify.app)
 
-### Screenshot
+### 📸 Screenshots
 
-![](./design/solution-screenshot.png)
+<details style="margin-left: 28px;">
+  <summary style="margin-bottom: 10px;">Desktop:</summary>
+  
+  <img src="./solution/solution-desktop-screenshot.png" alt="Desktop solution screenshot" style="width: 400px;"></img>
+     
+</details>
 
-### Links
+<details style="margin-left: 28px;">
+  <summary style="margin-bottom: 10px;">Mobile:</summary>
+  
+  <img src="./solution/solution-mobile-screenshot.png" alt="Mobile solution screenshot" style="height: 400px;"></img>
 
-- Live Site URL: [https://nuzzi-order-summary-component.netlify.app/](https://nuzzi-order-summary-component.netlify.app/)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-
-## Author
-
-- Website - [...]()
-- Frontend Mentor - [@victormnuzzi](https://www.frontendmentor.io/profile/victormnuzzi)
+</details>
